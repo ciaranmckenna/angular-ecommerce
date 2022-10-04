@@ -1,4 +1,6 @@
-# AngularEcommerce
+# Ecommerce-Project
+
+## Practicing a fullstack ecommerce project using Spring Boot backend and Angular Frontend.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.7.
 
