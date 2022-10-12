@@ -16,7 +16,9 @@ export class ProductService {
 
     // @TODO: need to build URL based on the category id ... will come back to this. 
 
-    return this.httpclient.get<GetResponse>(this.baseUrl).pipe(
+    const searchUrl = `${this.baseUrl}/search/findByCategoryId?id=${theCategoryId}`;
+
+    return this.httpclient.get<GetResponse>(searchUrl).pipe(
       map(response => response._embedded.products)
     );
   }
