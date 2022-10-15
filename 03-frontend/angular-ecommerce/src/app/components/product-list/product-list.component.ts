@@ -19,11 +19,11 @@ export class ProductListComponent implements OnInit {
 
   ngOnInit() { 
     this.route.paramMap.subscribe(() => {
-      this.listPrducts();
+      this.listProducts();
     });
   }
 
-  listPrducts() {
+  listProducts() {
     // check if "id" parameter is available 
     const hasCategoryId: boolean = this.route.snapshot.paramMap.has('id');
 
