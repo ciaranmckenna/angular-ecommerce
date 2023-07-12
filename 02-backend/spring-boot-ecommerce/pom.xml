@@ -51,9 +51,6 @@
         <version>3.3.0</version>
         <configuration>
           <archive>
-            <manifest>
-              <mainClass>com.ciaranmckenna.springbootecommerce.SpringBootEcommerceApplication</mainClass>
-            </manifest>
           </archive>
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
